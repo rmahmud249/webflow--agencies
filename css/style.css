@@ -1,0 +1,85 @@
+/* ========Css Common code===============*/
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Raleway", sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    vertical-align: middle;
+}
+.wrapper{
+    width:1140px;
+    margin:0px auto;
+}
+/* ==========Css Common Code End================ */
+/* =========Navigation Part Start=============== */
+.nav-bar{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index:1000;
+    position: fixed;
+}
+.nav-bar .nav-content{
+    display: flex;
+    padding: 50px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar .nav-content .nav-btn a button {
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    border-radius:8px;
+    padding: 10px 20px;
+    background-color: #4E47FF;
+    transition: all linear 0.2s;
+}
+.nav-bar .nav-content .nav-btn a button:hover {
+    transform: scale(1.08);
+    background-color: #cf0023;
+   
+}
+/* ========Navigation Part End================ */
+/* ========Banner Part Start=================== */
+.banner-section{
+    background: url(../images/Hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 200px 0px;
+}
+.banner-section .banner-content .banner-title h1{
+    color: #252432;
+    font-size:65px;
+    font-weight: 700;
+    padding:30px 30px;
+    
+}
+.banner-section .banner-content{
+    text-align: center;
+}
+.banner-section .banner-content .banner-btn button{
+    cursor: pointer;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    padding:10px 30px;
+    background-color: #4E47FF;
+    transition: all linear 0.2s;
+}
+.banner-section .banner-content .banner-btn button:hover{
+    transform: scale(1.08);
+    background-color: #cf0023;
+}

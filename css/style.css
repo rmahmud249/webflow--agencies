@@ -167,7 +167,7 @@ img{
 /* ==============Productive User Part End====================== */
 /* ==============User Section Part Start======================= */
 .user-section {
-   padding-bottom: 80px;
+   padding-bottom: 50px;
 }
 .user-section .user-content .user-title h2{
     color: #252432;
@@ -228,3 +228,41 @@ img{
 }
 
 /* ==============User Section Part End========================= */
+.focus-section{
+    padding-bottom:80px;
+}
+.focus-section .focus-content{
+    padding: 50px 0px;
+    border-radius:10px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+.focus-section .focus-content .focus-title h2{
+    color:#000000;
+    font-size: 50px;
+    font-weight: 700;
+}
+.focus-section .focus-content .focus-title p{
+    color: #afafaf;
+    font-size: 16px;
+    font-weight:400;
+    padding: 20px 0px;
+}
+.focus-section .focus-content .focus-btn button{
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    padding:10px 20px;
+    margin-bottom: 20px;
+    border-radius:8px;
+    background-color: #4E47FF;
+    transition: all linear 0.2s;
+}
+.focus-section .focus-content .focus-btn button:hover{
+    transform: scale(1.08);
+    background-color: #cf0023;
+}
+.focus-section .focus-content .focus-img img{
+    border-radius: 50px;
+}

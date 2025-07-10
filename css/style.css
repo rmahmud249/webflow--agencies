@@ -32,7 +32,7 @@ img{
 }
 .nav-bar .nav-content{
     display: flex;
-    padding: 50px 0px;
+    padding: 20px 0px;
     align-items: center;
     justify-content: space-between;
 }
@@ -183,10 +183,12 @@ img{
 .user-section .user-content .user-cards .card{
     width:33%;
     padding: 20px;
-    margin-right: 20px;
     background-color: #FFFFFF;
     border-radius:10px;
     position:relative;
+}
+.user-section .user-content .user-cards .card-mrgin{
+   margin: 0px 15px;
 }
 .user-section .user-content .user-cards .card .card-title h4{
    color: #252432;
@@ -268,6 +270,7 @@ img{
     border-radius: 50px;
 }
 /* ==============Focus Secttion Part End================ */
+/* ==============Get in Touch Part Start================ */
 .getintouch-section{
     padding-bottom: 50px;
 }
@@ -326,4 +329,41 @@ img{
     transform: scale(1.02);
     background-color: #cf0023;
 }
+/*===============Get in Touct Part End============== */
+/* ==============Footer Part Start================== */
+.footer-section{
+    padding: 80px 0px;
+    background-color: #FFFFFF;
+}
+.footer-section .footer-content{
+    text-align: center;
+}
+.footer-section .footer-content .footer-logo h1{
+  color: #4E47FF;
+  font-size: 100px;
+  font-weight: 800;
+}
+.footer-section .footer-content .footer-logo p{
+  color: #8987A1;
+  font-size: 16px;
+  font-weight:400;
+  padding: 15px 305px;
+}
+.footer-section .footer-content .footer-menu{
+    text-align: center;
+}
+.footer-section .footer-content .footer-menu ul{
+    display: inline-flex;
+}
+.footer-section .footer-content .footer-menu ul li{
+   list-style: none;
+}
+.footer-section .footer-content .footer-menu ul li a{
+   color: #8987A1;
+   font-size: 18px;
+   font-weight: 500;
+   text-decoration: none;
+   padding: 0px 20px;
+}
+/* ==============Footer Part End==================== */
 

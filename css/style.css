@@ -228,6 +228,7 @@ img{
 }
 
 /* ==============User Section Part End========================= */
+/* =============Focus Section Part Start====================== */
 .focus-section{
     padding-bottom:80px;
 }
@@ -266,3 +267,63 @@ img{
 .focus-section .focus-content .focus-img img{
     border-radius: 50px;
 }
+/* ==============Focus Secttion Part End================ */
+.getintouch-section{
+    padding-bottom: 50px;
+}
+.getintouch-section .getintouch-content{
+    display: flex;
+    align-items: center;
+}
+.getintouch-section .getintouch-content .getintouch-left-item{
+    width:60%;
+}
+.getintouch-section .getintouch-content .getintouch-left-item h1{
+   color:#000000;
+   font-size: 97px;
+   font-weight:700;
+    
+}
+.getintouch-section .getintouch-content .getintouch-right-item{
+    width:40%;
+}
+.getintouch-section .getintouch-content .getintouch-right-item form label{
+    color: #000000;
+    display:block;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+.getintouch-section .getintouch-content .getintouch-right-item form input{
+    width: 300px;
+    padding:15px 20px;
+    border-radius:5px;
+    border: 1px solid #dfdddd;
+}
+.getintouch-section .getintouch-content .getintouch-right-item form textarea{
+    width: 300px;
+    padding:15px 20px;
+    border-radius:5px;
+    display: block;
+    height: 80px;
+    border: 1px solid #dfdddd;
+    margin-bottom:20px;
+}
+.getintouch-section .getintouch-content .getintouch-right-item form button{
+    width:342px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    padding:10px 0px;
+    margin-bottom: 20px;
+    border-radius:8px;
+    background-color: #4E47FF;
+    transition: all linear 0.2s;
+}
+.getintouch-section .getintouch-content .getintouch-right-item form button:hover{
+    transform: scale(1.02);
+    background-color: #cf0023;
+}
+

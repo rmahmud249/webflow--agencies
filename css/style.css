@@ -8,6 +8,7 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: "Raleway", sans-serif;
+    background-color:#EDEFF6;
 }
 h1,h2,h3,h4,h5,h6,p{
     margin: 0px;
@@ -129,3 +130,101 @@ img{
     transform: scale(1.08);
     background-color: #cf0023;
 }
+/* ============Action Part End===================== */
+/* ============Productive User Part Start========== */
+.productive-user-section{
+   padding-bottom: 80px;
+}
+.productive-user-section .productive-user-content{
+    border-radius:10px;
+    padding: 50px 0px;
+    background-color: #dddcf8;
+}
+.productive-user-section .productive-user-content .productive-title h2{
+    color: #252432;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+}
+.productive-user-section .productive-user-content .productive-items{
+   display: flex;
+   padding: 50px 0px;
+   justify-content:space-around;
+}
+.productive-user-section .productive-user-content .productive-items h1{
+   color:#4E47FF;
+   font-size:80px;
+   text-align: center;
+   font-weight: 700;
+   font-family:sans-serif;
+}
+.productive-user-section .productive-user-content .productive-items p{
+   color:#818181;
+   font-size:20px;
+   font-weight:400;
+   text-align: center;
+}
+/* ==============Productive User Part End====================== */
+/* ==============User Section Part Start======================= */
+.user-section {
+   padding-bottom: 80px;
+}
+.user-section .user-content .user-title h2{
+    color: #252432;
+    font-size: 42px;
+    font-weight:700;
+    text-align:center;
+}
+.user-section .user-content .user-cards{
+    display: flex;
+    padding:50px 0px;
+    justify-content: space-around;
+}
+.user-section .user-content .user-cards .card{
+    width:33%;
+    padding: 20px;
+    margin-right: 20px;
+    background-color: #FFFFFF;
+    border-radius:10px;
+    position:relative;
+}
+.user-section .user-content .user-cards .card .card-title h4{
+   color: #252432;
+   font-size:20px;
+   font-weight:700;
+}
+.user-section .user-content .user-cards .card .card-title p{
+   color:#252432;
+   font-size:16px;
+   font-weight: 400;
+   padding-top:10px;
+   padding-bottom: 15px;
+}
+.user-section .user-content .user-cards .card .card-icon ul{
+    display: flex;
+}
+.user-section .user-content .user-cards .card .card-icon ul li{
+    color:#FFB805;
+    list-style: none;
+    margin-right: 5px;
+    padding-bottom: 20px;
+}
+.user-section .user-content .user-cards .card .card-img img{
+    left:20px;
+    bottom: 20px;
+    position: absolute;
+    border-radius:100%;
+}
+.user-section .user-content .user-cards .card .card-img h5{
+   color: #818181;
+   font-size:14px;
+   padding-top: 11px;
+   padding-left: 55px;
+}
+.user-section .user-content .user-cards .card .card-img p{
+    color: #afafaf;
+    font-size: 14px;
+    padding-left: 55px;
+}
+
+/* ==============User Section Part End========================= */

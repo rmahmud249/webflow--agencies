@@ -83,3 +83,49 @@ img{
     transform: scale(1.08);
     background-color: #cf0023;
 }
+/* ===========Banner Part End=================== */
+/* ============Action Part Start================ */
+.action-sectioin{
+   padding:80px 0px;
+}
+.action-sectioin .action-content{
+    display: flex;
+    align-items:center;
+}
+.action-sectioin .action-content .action-lef-item{
+    width:60%;
+}
+.action-sectioin .action-content .action-right-item{
+    width:40%;
+}
+.action-sectioin .action-content .action-right-item img{
+    width: 100%;
+    border-radius: 50px;
+}
+.action-sectioin .action-content .action-lef-item .action-title h2{
+  color:#252432;
+  font-size:42px;
+  font-weight:700;
+  padding-bottom:10px;
+}
+.action-sectioin .action-content .action-lef-item .action-title p{
+    color:#afafaf;
+    font-size: 24px;
+    font-weight: 400;
+    padding-right: 150px;
+    padding-bottom: 20px;
+}
+.action-sectioin .action-content .action-lef-item .action-btn button{
+    cursor: pointer;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    padding:10px 30px;
+    background-color: #4E47FF;
+    transition: all linear 0.2s;
+}
+.action-sectioin .action-content .action-lef-item .action-btn button:hover{
+    transform: scale(1.08);
+    background-color: #cf0023;
+}
